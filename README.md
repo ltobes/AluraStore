@@ -43,7 +43,7 @@ El propósito de este análisis es:
 
 ![Ingresos Totales](images/ingresos_totales.png)
 
-> **Insight:** Brasil representa el mayor volumen de ingresos, seguido por Argentina y México.
+> **Insight:** La tienda 1 representa el mayor volumen de ingresos, seguido por la tienda 2 y 3.
 
 ---
 
@@ -51,15 +51,51 @@ El propósito de este análisis es:
 
 ![Ingresos Netos](images/ingresos_netos.png)
 
-> **Insight:** A pesar de diferencias de ingresos totales, los ingresos netos mantienen una proporción similar, lo cual puede indicar costos relativamente constantes entre regiones.
+> **Insight:** A pesar de diferencias de ingresos totales, los ingresos netos, es decir contemplando los gastos en envíos, mantienen una proporción similar, lo cual puede indicar costos relativamente constantes entre las diferentes tiendas.
+
+---
+
+### 📉 Ingresos por categoría por Tienda
+
+![Ingresos Netos](images/Tabla_it_por_art.png)
+
+> **Insight:** Cuando se desagrega por categoría en todas las tiendas las ventas principalmente se dan en electrónica, seguido por electrodomésticos y muebles.
+
+---
+### 🥇🥈🥉 Calificación promedio de la tienda
+
+![Ingresos Netos](images/cal_prom_tienda.png)
+
+> **Insight:** Aunque la tienda 1 es la que mayor ventas tiene, es la que peor calificación promedio tiene con 3.98. La tienda 3 es la que calificación promedio tiene con 4.05 puntos.
+
+---
+
+### 📊 5 productos más y menos vendidos por tienda
+
+## Los cinco productos más vendidos
+
+![Ingresos Netos](images/Productos+vend.png)
+
+> **Insight:** Cuando se observan los productos más vendidos por tienda se observan ciertas diferencias, respecto a la facturación y a las principales categorás de facturación. De esta manera, los productos en la tienda 1 aparecen electrodomésticos (microondas, tv y secadora de ropa) y muebles (armario y mesa de noche), mientras que en le tienda 2 el principal producto que se vende es iniciando en programación, en la tienda 3 kit de sillas y en la tienda 4 cama box.
+
+## Los cinco productos menos vendidos
+
+![Ingresos Netos](images/Productos-vend.png)
+
+> **Insight:** Cuando se observan los productos menos vendidos por tienda se observan nuevamente diferencias, el producto que menos se vende en la tienda 1 es Celular ABXY, en la tienda 2 juego de mesa, en la tienda 3 bloques de construcción y en la tienda 4 la guitarra eléctrica.
+---
+
+### 🚚 Costo de envío promedio por tienda
+
+![Ingresos Netos](images/costo_env_prom.png)
+
+> **Insight:** El costo promedio de envío mayor se da en la tienda 1 con un monto de $26.018 y el menor en la tienda 4 $23.459.
 
 ---
 
 ## ⚙️ Instrucciones para Ejecutar la Notebook
 
-1. Cloná el repositorio:
+Para ejecutar la notebook se debe clonar el repositorio
 
-```bash
-git clone https://github.com/tu-usuario/alurastore-latam.git
-cd alurastore-latam
+
 
